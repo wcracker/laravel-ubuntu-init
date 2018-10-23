@@ -37,7 +37,7 @@ server {
         fastcgi_read_timeout 300;
     }
 
-    location ~ /\.ht {
+    location ~ /\.(ht|svn|git) {
         deny all;
     }
 }
